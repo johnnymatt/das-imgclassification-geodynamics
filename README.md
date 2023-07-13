@@ -26,6 +26,6 @@ One can run the jupyter notebook "imgclass_test.ipynb" in order to test the trai
 
 We welcome suggestions and/or future collaborations with other researchers interested in this work.
 
-Ioannis Matthaiou \\
-Research Fellow \\
+Ioannis Matthaiou //
+Research Fellow //
 University of Southampton
