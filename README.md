@@ -22,6 +22,10 @@ A Bayesian Optimisation procedure for hyperparameters (including number of convo
 In the folder ./10-04_18-14 there is a file called "saved_model.pb". This is the trained classifier.
 In the same folder, the "hist.csv" contains the training history (classification accuracy vs epoch number) of the model.
 One can run the jupyter notebook "imgclass_test.ipynb" in order to test the trained model.
+This notebook will generate:
+1. A .csv file called "predictions_file.csv" detailing the model predictions in terms of probability for each class.
+2. A folder called "./predictions_categories" that catalogues all test images in their respective folders.
+3. A subfolder in ./predictions_categories/lowprobability contain the images with the highest probability being less than the threshold set by the user (curently at 75%).
 
 
 We welcome suggestions and/or future collaborations with other researchers interested in this work.
